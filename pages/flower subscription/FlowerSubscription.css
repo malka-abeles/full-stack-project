@@ -1,0 +1,121 @@
+#imgtop{
+    width: 100%;
+}
+
+#imgtopmobile{
+    width: 100%;
+    display: none;
+}
+
+.TatelFlowerSubscription{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+#lineFlowerSubscription{
+    border: black solid;
+    border-width: 1px 0px 0px 0px;
+    width: 90%;
+    margin: 30px 0px 20px 0px;
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    text-align: center
+}
+
+#lineFlowerSubscription>p{
+    position: absolute;
+    z-index: 3;
+    top: -20px;
+    font-weight: 500;
+    width: 200px;
+    background-color: rgb(255, 255, 255);
+    font-size: x-large;
+}
+
+@media  (max-width: 600px) {
+    #imgtop{
+        display: none;
+    }
+
+    #imgtopmobile{
+        width: 100%;
+        display: block;
+    }
+}
+
+#formFlowerSubscription{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#formFlowerSubscription>form{
+    width: 45%;
+}
+
+#formFlowerSubscription>form>p{
+    margin: 0;
+    font-size: larger;
+}
+
+#formFlowerSubscription>form>input{
+    width: 100%;
+    margin-bottom: 3%;
+}
+
+#formFlowerSubscription>form>select{
+    width: 100%;
+    margin-bottom: 3%;
+    height: 30px;
+}
+
+#formFlowerSubscription>#img>img{
+    width: 90%;
+}
+#formFlowerSubscription>#img{
+    width: 45%;
+}
+
+.btn-primary {
+    --bs-btn-color: rgb(0, 0, 0);
+    --bs-btn-bg: hsl(20deg 5.88% 90%);
+    --bs-btn-border-color: #000000;
+    --bs-btn-hover-color: rgb(0, 0, 0);
+    --bs-btn-hover-bg: #ffffff;
+    --bs-btn-hover-border-color: #000000;
+    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #ffffff;
+    --bs-btn-active-border-color: #ffffff;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #ffffff;
+    --bs-btn-disabled-border-color: #ffffff;
+    width: 100%;
+}
+
+.titel{
+    font-weight:bold ;
+    margin: 0;
+}
+
+#TextFlowerSubscription{
+    margin-right: 5%;
+}
+
+#TextFlowerSubscription>p{
+    font-size: x-large;
+}
+
+#payPage>:last-child{
+    margin-right: 30px;
+    width: 200px;
+    border: #33863f solid 2px;
+}
+
+#payPage>input{
+    margin: 5px;
+}

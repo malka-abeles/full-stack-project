@@ -1,0 +1,86 @@
+.btn-primary {
+    --bs-btn-color: #000;
+    --bs-btn-bg: #ffffff;
+    --bs-btn-border-color: #ffffff;
+    --bs-btn-hover-color: #181717;
+    --bs-btn-hover-bg: #fefeff;
+    --bs-btn-hover-border-color: #ffffff;
+    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-active-color: #000;
+    --bs-btn-active-bg: #ffffff;
+    --bs-btn-active-border-color: #ffffff;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #000;
+    --bs-btn-disabled-bg: #ffffff;
+    --bs-btn-disabled-border-color: #ffffff;
+}
+
+button{
+    margin: 5px;
+    border-radius: 4px;
+    background-color: #ffffff;
+}
+
+#flowers{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#imgTop {
+    background-image: url("../../assets/פרחים/פרחים-2.png");
+    height: 250px;
+    background-size: cover;
+    text-align: center;
+    font-size: 600%;
+    color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* פרטי מוצר */
+
+/* #flowerDiv{
+    width: 1000px;
+} */
+
+#content{
+    width: 600px;
+}
+
+#topdiv{
+    display: flex;
+}
+
+#leftdiv>p>span{
+    font-weight: bold;
+}
+
+#leftdiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0 10px;
+}
+
+#topdiv>img{
+    margin:10px 10px 0 0;
+}
+
+#flowerDiv>p{
+    display: inline;
+    margin-right: 10px;
+}
+
+#flowerDiv>input{
+    margin-top: 10px;
+    height: 20px;
+}
+
+#flowerDiv>button{
+    width: 160px;
+    height: 50px;
+    display: block;
+    margin-right: 400px;
+}

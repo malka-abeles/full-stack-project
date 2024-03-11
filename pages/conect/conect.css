@@ -1,0 +1,43 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+#conectForm{
+    border: 1px #000000 solid;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    height: 450px;
+    margin-top: 20px;
+}
+
+#conectForm>div{
+    margin: 20px 10px 0 10px;
+    width: 100%;
+    height: 7%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#conectForm>div>button{
+    width: 45%;
+}
+
+#conectForm>form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 200px;
+    width: 370px;
+}
+
+#conectForm>form>input{
+    width: 100%;
+}
+
+#text_titel{
+    font-size: x-large;
+}

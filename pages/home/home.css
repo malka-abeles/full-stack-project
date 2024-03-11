@@ -1,0 +1,132 @@
+/* #advertisement{
+    display: none;
+    width: 70%;
+    height: 70%;
+} */
+#imgHome{
+    display: flex;
+}
+#r{
+    width: 47%;
+}
+#l{
+    display: flex;
+    flex-direction: column;
+    width: 53%;
+}
+#r>img{
+    width: 94%;
+}
+#l>img{
+    width: 94%;
+}
+
+#l>:last-child{
+    margin-top: 3px;
+}
+
+#texthome{
+    text-align: center;
+    margin: 30px 0 30px 0;
+    background-image:url("../../assets/רקע\ חתוך.png") ;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+#texthome>p{
+    width: 70%;
+
+}
+
+#ttexthome{
+    display: flex;
+    justify-content: center;
+}
+
+#body{
+   text-align: center;
+}
+
+#input3>input{
+width: 200px;
+}
+
+#input1>input{
+    margin-top: 6px;
+    margin-bottom: 6px;
+    width: 610px;
+    }
+
+/* #conect{
+border: solid black 0.5px;
+margin: 0 10px 30px 10px;
+}
+
+#conectsumbit{
+    width: 150px; 
+    margin-top:15px;
+}
+
+#Contact-Us{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#conectform{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+#line{
+    border: black solid;
+    border-width: 1px 0px 0px 0px;
+    width: 90%;
+    margin: 20px 5% 20px 0px;
+}
+
+#Keep-in-touch>div{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+}
+
+#Keep-in-touch>div>div{
+    display: flex;
+    align-items: center;
+}
+
+#Keep-in-touch>div>div>p{
+    
+    margin: 0;
+}
+
+#Keep-in-touch>p{
+    font-weight: 500;
+} */
+
+.advertisement1{
+    position: fixed;
+    z-index: 100;
+    top: 100px;
+    /* margin-right: 20%; */
+    /* height: 16.5cm; */
+    /* width: 12cm; */
+    font-size: xx-large;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.advertisement{
+    width: 50%;
+    border: black solid 1px;
+    padding: 50px;
+    background-color: rgb(255, 255, 255);
+}
+
